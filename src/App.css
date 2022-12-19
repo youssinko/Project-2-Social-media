@@ -1,11 +1,19 @@
 .App {
   text-align: center;
+  overflow: hidden;
+  color: black;
+  background-color: white;
+  padding: 1rem 1rem;
+}
+.blur{
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background-color: coral;
+  filter: blur(72pt);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

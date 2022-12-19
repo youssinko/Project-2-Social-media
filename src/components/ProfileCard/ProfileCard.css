@@ -1,0 +1,63 @@
+img {
+    border-radius: 50%;
+    height:200px;
+    width:200px;
+ 
+  } 
+  .profile-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 10px;
+  }
+  .profile-name>span:nth-last-of-type(2){
+   font-weight: bold;
+  }
+  .followStatus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+  .followStatus>hr{
+    width: 85%;
+    border: 1px solid salmon;
+  }
+  .followStatus>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    width: 80%;
+  }
+  .follow{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .follow>span:nth-of-type(1){
+    font-weight: bold;
+  }
+  
+  .follow>span:nth-of-type(2){
+    color: rgb(57, 164, 164);
+  }
+  .vl{
+    height: 150%;
+    border-left: 3px solid salmon
+  }
+  .ProfileCard{
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: aliceblue;
+  }
+  .ProfileCard>span{
+    font-weight: bold;
+    color: coral;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
